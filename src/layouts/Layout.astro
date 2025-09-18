@@ -1,0 +1,24 @@
+---
+const { title = "Frutiger Astro", description = "Frutiger Aero website template for Astro.", theme = "teal" } = Astro.props;
+---
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>{title}</title>
+		<meta charset="UTF-8" />
+		<meta name="description" content={description} />
+		<meta property="og:title" content={title} />
+		<meta property="og:description" content={description} />
+		<meta name="generator" content={Astro.generator} />
+		<link rel="stylesheet" href="styles.css" />
+		<link rel="stylesheet" href="themes.css" />
+		<link rel="icon" href="favicon.svg" />
+		<link rel="shortcut icon" href="favicon.svg" />
+	</head>
+	<body>
+		<header class={theme}>{title}</header>
+		<main>
+			<slot />
+		</main>
+	</body>
+</html>

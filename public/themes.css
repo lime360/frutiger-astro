@@ -1,0 +1,19 @@
+header.teal {
+	background-image: url(header.png);
+	color: white;
+}
+
+header.dark {
+	background-image: url(header2.png);
+	color: white;
+}
+
+header.blue {
+	background-image: url(header3.png);
+	color: white;
+}
+
+header.grey {
+	background-image: url(header4.png);
+	color: white;
+}

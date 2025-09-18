@@ -1,0 +1,15 @@
+body {
+	margin: 0;
+	font-family: "Segoe UI", "Ubuntu", "Helvetica", sans-serif;
+}
+
+header {
+	padding: 10px;
+	background-repeat: repeat-x;
+	background-size: contain;
+	position: sticky;
+}
+
+main {
+	padding: 8px;
+}
