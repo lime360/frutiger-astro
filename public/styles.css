@@ -13,3 +13,47 @@ header {
 main {
 	padding: 8px;
 }
+
+button.green, input[type="submit"].green {
+	border: 0;
+	padding: 5px;
+	background: linear-gradient(to bottom, 
+    	#c8ffc5 0%, 
+    	#1fbf24 55%,
+    	#009a05 55%, 
+    	#457a28 100%
+	);
+	color: white;
+}
+
+button.blue, input[type="submit"].blue {
+	border: 0;
+	padding: 5px;
+	background: linear-gradient(to bottom, 
+    	#87fff3 0%, 
+    	#1f9abf 55%,
+    	#005a9a 55%, 
+    	#284a7a 100%
+	);
+	color: white;
+}
+
+button.dark, input[type="submit"].dark {
+	border: 0;
+	padding: 5px;
+	background: linear-gradient(to bottom, 
+    	#a1a1a1 0%, 
+    	#565656 55%,
+    	#2b2b2b 55%, 
+    	#000000 100%
+	);
+	color: white;
+}
+
+button:hover, input[type="submit"]:hover {
+	text-decoration: underline;
+}
+
+button:active, input[type="submit"]:active {
+	text-decoration: none;
+}
